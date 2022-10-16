@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+    /*font-family: 'Kaushan Script', cursive;*/
+}
+
+h1, h2, h3, h4
+{
+    margin: 0;
+}
+/*Pseudo elements*/
+*,
+*:after,
+*:before
+{
+    box-sizing: border-box;
+}
+/*Intro*/
+.intro
+{
+    background: linear-gradient(70deg, rgb(134, 12, 158), rgb(8, 139, 226));
+    width: 100%;
+    height: 100vmax;
+}
+/*Container*/
+.container
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
