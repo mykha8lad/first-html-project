@@ -32,3 +32,48 @@ h1, h2, h3, h4
     max-width: 1200px;
     margin: 0 auto;
 }
+/*Header*/
+.header
+{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__iner
+{
+    display: flex;
+    justify-content: space-between;
+}
+/*logo*/
+.header__logo
+{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+/*nav*/
+.nav
+{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav__link
+{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+
+    color: #fff;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.nav__link:hover
+{
+    color: #fce38a;
+}
